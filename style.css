@@ -1,0 +1,268 @@
+/*	font google
+	font-family: 'Poppins', sans-serif; 700 & 400
+	font-family: 'Roboto', sans-serif; 700
+	font-family: 'Rubik', sans-serif; 700
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.clear-left {
+	clear: both;
+}
+
+.clear-right {
+	clear: right;
+}
+
+
+/*Awal Header*/
+
+header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+   border-bottom: 0.5px solid;
+   margin-bottom: 70px;
+   height: 95px;
+   color: #292929;
+}
+
+header h1 {
+    float: left;
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 55px;
+}
+
+header ul {
+    float: left;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 43px 40px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #292929; 
+    line-height: 8px;
+}
+
+header ul li a:hover {
+    background-color: #91ff80;
+}
+
+header a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.icon-menu {
+    display: none;
+}
+
+
+/*Akhir Header*/
+
+
+
+
+/*Awal main*/
+
+main {
+    width: 800px;
+    float: left;
+    color: #292929;
+}
+
+.title {
+    margin-bottom: 20px;  
+}
+
+.title h1 {
+    width: 600px;
+    font-size: 46px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title p {
+    margin-top: 5px;
+    width: 100px;
+    height: 18px;
+    border-radius: 50px;
+    background-color: #292929;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.main h3 {
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.main span {
+    color: rgb(187, 39, 39);
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+.main p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.image {
+    margin-top: 5px;
+}
+
+.image img {
+    width: 800px;
+    height: 500px;
+}
+
+.artikel {
+    margin-top: 25px;
+    width: 800px;
+}
+ .artikel p {
+     font-size: 18px;
+     font-weight: 400;
+     font-family: 'Poppins', sans-serif;
+     text-align: justify;
+ }
+
+ /*Akhir main
+ /*awal body*/
+
+aside {
+	float: right;
+	margin-bottom: 85px;
+    color: #292929;
+}
+
+ .news-pic{
+    width:250px;
+    height:130px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.popular-news{
+    width:300px;
+    border-radius: 15px;
+    border:2px solid lightgray;
+    padding:40px 20px;
+    margin-bottom:15px;
+}
+
+.headline{
+    padding: 6px 0;
+    font-size:28px;
+    font-family: sans-serif ;
+    font-weight: bolder;
+}
+
+.popular-wrapper h3{
+    font-size:28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+
+.category{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 700;
+    font-size: 10px;
+    height: 15px;
+    width: 55px;
+    border:10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.category-1{
+    background-color: darkred;
+}
+
+.category-2{
+    background-color:darkgreen;
+}
+
+.category-3{
+    background-color: darkmagenta;
+}
+
+.category-4{
+    background-color: darkblue;
+}
+
+/* Akhir Body */
+
+
+/*Alawal Footer*/
+
+
+
+.footer { 
+  background-color: #292929;
+  color: white;
+  height: 150px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 36px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.footer-list {
+  float: right;
+  margin-right: 80px;
+}
+
+.footer-list li {
+  float:right;
+  padding-right: 20px;
+  margin-top: 60px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display:inline-block
+}
+
+
+
+/*	font-family: 'Poppins', sans-serif; 700 & 400
+	font-family: 'Roboto', sans-serif; 700
+	font-family: 'Rubik', sans-serif; 700*/
