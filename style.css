@@ -143,13 +143,13 @@ main {
 }
 
 .image img {
-    width: 800px;
+    width: 600px;
     height: 500px;
 }
 
 .artikel {
     margin-top: 25px;
-    width: 800px;
+    width: 600px;
 }
  .artikel p {
      font-size: 18px;
