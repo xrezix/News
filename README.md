@@ -9,4 +9,6 @@ Main : Husnul
 Body : Rey
 
 Desain resposif : Fathan
-View deployment
+
+https://xrezix.github.io/News/#
+
